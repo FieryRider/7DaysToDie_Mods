@@ -1,0 +1,151 @@
+<xml>
+    <!-- Pistol -->
+    <!-- ClipName = fpvPistolReload -->
+    <append xpath="//item[@name='gunHandgunT1Pistol']">
+        <property name="ReloadAnimationClip" value="PistolReload" />
+        <property name="SoundReloadClip0" param1="0.0454531" value="pistol_remove_clip" />
+        <property name="SoundReloadClip1" param1="0.750002" value="pistol_insert_clip" />
+        <property name="SoundReloadClip2" param1="1.087467" value="pistol_cock_back" />
+        <property name="SoundReloadClip3" param1="1.371642" value="pistol_cock_forward" />
+    </append>
+    <!-- 44Magnum -->
+    <!-- ClipName = fpvMagnumReload -->
+    <append xpath="//item[@name='gunHandgunT2Magnum44']">
+        <property name="ReloadAnimationClip" value="magnumReload" />
+        <property name="SoundReloadClip0" param1="0" value="44magnum_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.4257384" value="44magnum_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.371772" value="44magnum_reload_part_03" />
+        <property name="SoundReloadClip3" param1="2.255799" value="44magnum_reload_part_04" />
+        <property name="SoundReloadClip4" param1="2.919689" value="44magnum_reload_part_05" />
+    </append>
+    <!-- Desert Volture/Eagle -->
+    <!-- ClipName = fpvDesertEagleReload -->
+    <append xpath="//item[@name='gunHandgunT3DesertVulture']">
+        <property name="ReloadAnimationClip" value="desertEagleReload" />
+        <property name="SoundReloadClip0" param1="0" value="desertvulture_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.1545455" value="desertvulture_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.018182" value="desertvulture_reload_part_03" />
+    </append>
+    <!-- SMG -->
+    <!-- ClipName = fpvMP5Reload -->
+    <append xpath="//item[@name='gunHandgunT3SMG5']">
+        <property name="ReloadAnimationClip" value="MP5Reload" />
+        <property name="SoundReloadClip0" param1="0" value="mp5_reload_part_01" />
+        <property name="SoundReloadClip1" param1="1.19771" value="mp5_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.774493" value="mp5_reload_part_03" />
+        <property name="SoundReloadClip3" param1="2.532788" value="mp5_reload_part_04" />
+        <property name="SoundReloadClip4" param1="3.09679" value="mp5_reload_part_05" />
+    </append>
+    <!-- Blunderbuss -->
+    <!-- ClipName = fpvBlunderbussReload -->
+    <append xpath="//item[@name='gunShotgunT0Blunderbuss']">
+        <property name="ReloadAnimationClip" value="BlunderbussReload" />
+        <property name="SoundReloadClip0" param1="0.6578403" value="blunderbuss_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.955726" value="blunderbuss_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.436863" value="blunderbuss_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.664547" value="blunderbuss_reload_part_04" />
+        <property name="SoundReloadClip4" param1="2.646337" value="blunderbuss_reload_part_05" />
+    </append>
+    <!-- Shotgun -->
+    <!-- ClipName = fpvSawedOffShotgunReload -->
+    <append xpath="//item[@name='gunShotgunT2PumpShotgun']">
+        <property name="ReloadAnimationClip" value="SawedOffPumpShotgunReload" />
+        <property name="SoundReloadClip0" param1="0.3720734" value="shotgun_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.837314" value="shotgun_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.705982" value="shotgun_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.920571" value="shotgun_reload_part_04" />
+    </append>
+    <!-- Double Barrel Shotgun -->
+    <!-- ClipName = fpvDoubleBarrelShotgunReload -->
+    <append xpath="//item[@name='gunShotgunT1DoubleBarrel']">
+        <property name="ReloadAnimationClip" value="ShotgunReload" />
+        <property name="SoundReloadClip0" param1="0.0372781" value="shotgundb_reload_part_01" />
+        <property name="SoundReloadClip1" param1="1.475148" value="shotgundb_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.972189" value="shotgundb_reload_part_03" />
+    </append>
+    <!-- Auto Shotgun -->
+    <!-- ClipName = fpvAutoShotgunReload -->
+    <append xpath="//item[@name='gunShotgunT3AutoShotgun']">
+        <property name="ReloadAnimationClip" value="autoShotgunReload" />
+        <property name="SoundReloadClip0" param1="0.2486364" value="autoshotgun_reload_part_01" />
+        <property name="SoundReloadClip1" param1="1.029091" value="autoshotgun_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.857273" value="autoshotgun_reload_part_03" />
+    </append>
+    <!-- Hunting Rifle -->
+    <!-- ClipName = fpvHuntingRifleReload -->
+    <append xpath="//item[@name='gunRifleT1HuntingRifle']">
+        <property name="ReloadAnimationClip" value="HuntingRifleReload" />
+        <property name="SoundReloadClip0" param1="0.063133" value="hunting_rifle_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.3366406" value="hunting_rifle_reload_part_02" />
+        <property name="SoundReloadClip2" param1="0.868283" value="hunting_rifle_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.167881" value="hunting_rifle_reload_part_04" />
+        <property name="SoundReloadClip4" param1="1.425607" value="hunting_rifle_reload_part_03" />
+    </append>
+    <!-- Masksman Rifle -->
+    <!-- ClipName = fpvSniperRifleReload -->
+    <append xpath="//item[@name='gunRifleT2MarksmanRifle']">
+        <property name="ReloadAnimationClip" value="SniperRifleReload" />
+        <property name="SoundReloadClip0" param1="0.1697548" value="sniperrifle_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.267355" value="sniperrifle_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.127274" value="sniperrifle_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.728168" value="sniperrifle_reload_part_04" />
+    </append>
+    <!-- Sniper Rifle -->
+    <!-- ClipName = fpvSharpShooterRifleReload -->
+    <append xpath="//item[@name='gunRifleT3SniperRifle']">
+        <property name="ReloadAnimationClip" value="sharpShooterGunReload" />
+        <property name="SoundReloadClip0" param1="0" value="sharpshooter_reload_part_01" />
+        <property name="SoundReloadClip1" param1="1.039353" value="sharpshooter_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.701505" value="sharpshooter_reload_part_03" />
+        <property name="SoundReloadClip3" param1="2.070203" value="sharpshooter_reload_part_04" />
+    </append>
+    <!-- AK47 -->
+    <!-- ClipName = fpvAK47Reload -->
+    <append xpath="//item[@name='gunMGT1AK47']">
+        <property name="ReloadAnimationClip" value="ak47Reload" />
+        <property name="SoundReloadClip0" param1="0.0539443" value="ak47_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.4379079" value="ak47_reload_part_02" />
+        <property name="SoundReloadClip2" param1="0.879242" value="ak47_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.058001" value="ak47_reload_part_04" />
+    </append>
+    <!-- Tactical AR -->
+    <!-- ClipName = fpvTacticalAssaultRifleReload -->
+    <append xpath="//item[@name='gunMGT2TacticalAR']">
+        <property name="ReloadAnimationClip" value="tacticalAssaultRifleReload"/>
+        <property name="SoundReloadClip0" param1="0" value="tacticalar_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.3708333" value="tacticalar_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.015833" value="tacticalar_reload_part_03" />
+    </append>
+    <!-- LMG -->
+    <!-- ClipName = fpvM60Reload -->
+    <append xpath="//item[@name='gunMGT3M60']">
+        <property name="ReloadAnimationClip" value="M60Reload" />
+        <property name="SoundReloadClip0" param1="0" value="m60_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.5974189" value="m60_reload_part_02" />
+        <property name="SoundReloadClip2" param1="0.771932" value="m60_reload_part_03" />
+        <property name="SoundReloadClip3" param1="1.195063" value="m60_reload_part_04" />
+        <property name="SoundReloadClip4" param1="1.935543" value="m60_reload_part_05" />
+        <property name="SoundReloadClip5" param1="2.196474" value="m60_reload_part_06" />
+        <property name="SoundReloadClip6" param1="3.268406" value="m60_reload_part_07" />
+        <property name="SoundReloadClip7" param1="3.451763" value="m60_reload_part_08" />
+        <property name="SoundReloadClip8" param1="3.867842" value="m60_reload_part_09" />
+    </append>
+    <!-- Rocket Launcher -->
+    <!-- ClipName = fpvM136Reload -->
+    <append xpath="//item[@name='gunExplosivesT3RocketLauncher']">
+        <property name="ReloadAnimationClip" value="M136Reload" />
+        <property name="SoundReloadClip0" param1="0.0339168" value="m136_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.4195113" value="m136_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.286105" value="m136_reload_part_03" />
+    </append>
+    <!-- JunkTurret -->
+    <!-- ClipName = fpvJunkTurretReload -->
+    <!--
+    <append xpath="//item[@name='gunBotT2JunkTurret']">
+        <property name="ReloadAnimationClip" value="fpvJunkTurretReload" />
+        <property name="SoundReloadClip0" param1="0" value="junkturret_reload_part_01" />
+        <property name="SoundReloadClip1" param1="0.970548" value="junkturret_reload_part_02" />
+        <property name="SoundReloadClip2" param1="1.905479" value="junkturret_reload_part_03" />
+    </append>
+    -->
+</xml>
