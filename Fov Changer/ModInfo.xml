@@ -4,11 +4,13 @@
     <Name value="FOV Changer" />
     <Description value="Changes the hands/weapon FOV" />
     <Author value="FieryRider" />
-    <Version value="1.0.0.0" />
+    <Version value="19.0.180.4" />
     <Website value="" />
   </ModInfo>
   <DMT>
-    <dependencies />
+    <dependencies>
+      <dependency>0-FieryRiderCore</dependency>
+    </dependencies>
     <conflicts />
   </DMT>
 </xml>

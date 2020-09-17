@@ -1,11 +1,13 @@
 using DMT;
 using HarmonyLib;
 using System.Reflection;
+using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Reflection.Emit;
 
 public class FovChanger : IHarmony
 {
-    protected static float fov = 65.0f;
     public void Start()
     {
         Debug.Log("Loading Patch: " + GetType().ToString());
@@ -20,8 +22,18 @@ public class FovChanger : IHarmony
         static void Postfix(vp_FPWeapon __instance)
         {
             // I don't actually use these values because the game overrides them for non-gun items. RenderingFieldOfView is set to 45 from scripts inside resources.assets such as WeaponBow, WeaponDefault ...
-            __instance.RenderingFieldOfView = fov;
-            __instance.originalRenderingFieldOfView = fov;
+            CustomPrefs customPrefs = CustomPrefs.GetCustomPrefs();
+            try
+            {
+                __instance.RenderingFieldOfView = customPrefs.GetCustomPref<int>("WeaponFov");
+                __instance.originalRenderingFieldOfView = customPrefs.GetCustomPref<int>("WeaponFov");
+            }
+            catch (ArgumentException e)
+            {
+                customPrefs.SetCustomPref<int>("WeaponFov", 60);
+                __instance.RenderingFieldOfView = customPrefs.GetCustomPref<int>("WeaponFov");
+                __instance.originalRenderingFieldOfView = customPrefs.GetCustomPref<int>("WeaponFov");
+            }
         }
     }
 
@@ -38,7 +50,8 @@ public class FovChanger : IHarmony
             float num = 1f - (___m_FinalZoomTime - Time.time) / __instance.RenderingZoomDamping;
             if (___m_WeaponCamera != null)
             {
-                ___m_WeaponCamera.GetComponent<Camera>().fieldOfView = Mathf.SmoothStep(___m_WeaponCamera.gameObject.GetComponent<Camera>().fieldOfView, fov, num * 15f);
+                CustomPrefs customPrefs = CustomPrefs.GetCustomPrefs();
+                ___m_WeaponCamera.GetComponent<Camera>().fieldOfView = Mathf.SmoothStep(___m_WeaponCamera.gameObject.GetComponent<Camera>().fieldOfView, customPrefs.GetCustomPref<int>("WeaponFov"), num * 15f);
             }
 
             return false;

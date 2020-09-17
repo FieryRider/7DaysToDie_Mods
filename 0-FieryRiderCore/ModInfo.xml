@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="0-FieryRiderCore" />
+    <Description value="Core DMT mod that has functionality required for some of my other mods" />
+    <Author value="FieryRider" />
+    <Version value="19.0.180.4" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>
