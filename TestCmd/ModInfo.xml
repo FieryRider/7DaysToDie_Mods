@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="TestCmd" />
+    <Description value="Test custom command" />
+    <Author value="FieryRider" />
+    <Version value="1" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies>
+    </dependencies>
+    <conflicts />
+  </DMT>
+</xml>
