@@ -3,12 +3,19 @@ using System.Collections.Generic;
 
 public class ConsoleCmdWeaponFov : ConsoleCmdAbstract
 {
-    public override string[] GetCommands()
-    {
-        return new string[]
+    public override bool IsExecuteOnClient{
+        get
         {
-            "wfov"
-        };
+            return true;
+        }
+    }
+
+    public override int DefaultPermissionLevel
+    {
+        get
+        {
+            return 0;
+        }
     }
 
     public override bool AllowedInMainMenu
@@ -17,6 +24,14 @@ public class ConsoleCmdWeaponFov : ConsoleCmdAbstract
         {
             return true;
         }
+    }
+
+    public override string[] GetCommands()
+    {
+        return new string[]
+        {
+            "wfov"
+        };
     }
 
     public override string GetDescription()
