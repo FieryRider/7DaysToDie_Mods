@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Pistols AAA Aim Fov" />
+        <Description value="Changes the default pistols distance from the camera while aiming like other AAA games do." />
+        <Author value="FieryRider" />
+        <Version value="1.0.0.0" />
+        <Website value="" />
+    </ModInfo>
+</xml>

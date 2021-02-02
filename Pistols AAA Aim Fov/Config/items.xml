@@ -1,0 +1,7 @@
+<config>
+    <set xpath="/items/item[@name='gunHandgunT1Pistol']/property[@class='Action1']/property[@name='ScopeCameraOffset']/@value">0,.0008,0.1</set>
+    <append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@class='Action1']">
+        <property name="ScopeCameraOffset" value="0,0,0.1"/>
+    </append>
+    <set xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action1']/property[@name='ScopeCameraOffset']/@value">0,.0008,0.1</set>
+</config>
