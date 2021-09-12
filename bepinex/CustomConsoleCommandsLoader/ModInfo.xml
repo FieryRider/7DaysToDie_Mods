@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="CustomConsoleCommandLoader" />
+    <Description value="Scans for classes that extend from `ConsoleCommandAbstract` or implement `IConsoleCommand` in your mod folders (`Scripts`, `Harmony`, `plugins`) and injects them as console commands." />
+    <Author value="FieryRider" />
+    <Version value="1.0.0.0" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>
