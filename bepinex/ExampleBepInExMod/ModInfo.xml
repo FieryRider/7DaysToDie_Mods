@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="ExampleBepInExMod" />
+    <Description value="Example BepInEx mod C# project to show BepInEx mod C# project structure" />
+    <Author value="FieryRider" />
+    <Version value="1.0.0.0" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

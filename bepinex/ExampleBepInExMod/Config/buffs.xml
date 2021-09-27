@@ -1,0 +1,12 @@
+<config>
+  <append xpath="/buffs">
+    <buff name="buffPrint" hidden="true">
+      <stack_type value="ignore"/>
+      <duration value="1"/>
+
+      <effect_group>
+        <triggered_effect trigger="onSelfBuffStart" action="PrintMessage,ExampleBepInExMod-Harmony" message="Custom action is worknig"/>
+      </effect_group>
+    </buff>
+  </append>
+</config>
